@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  alys:
+    build: .
+    ports:
+      - "8587:8587"
+    restart: always
